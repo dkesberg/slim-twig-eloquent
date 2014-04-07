@@ -2,6 +2,7 @@
 // Store the factory instance somewhere, Maybe like:
 use Symfony\Component\Translation\Translator;
 use Illuminate\Validation\Factory;
+
 class Validator {
 
   protected static $factory;
