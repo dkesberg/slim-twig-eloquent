@@ -12,7 +12,7 @@ This is a very bare bones template for using the following:
 
 Run ```git clone https://github.com/acoustep/slim-twig-eloquent.git``` then in terminal run ```composer install```
 
-Rename ```config.example.php``` to ```config.php``` and edit your application settings.
+Set up your database connection in ```app/config/database.php```.
 
 Make sure your ```.htaccess``` RewriteBase points to the right location (default is ```/public``` for development but you'll probably want to switch it to ```/``` for production or if you use virtual hosts).
 

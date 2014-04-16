@@ -37,16 +37,7 @@ $view->parserExtensions = array(
 
 /* Connect to Eloquent ORM */
 $capsule = new Capsule;
-$capsule->addConnection( array(
-  'driver' => DB_DRIVER,
-  'host' => DB_HOST,
-  'database' => DB_DATABASE,
-  'username' => DB_USERNAME,
-  'password' => DB_PASSWORD,
-  'collation' => DB_COLLATION,
-  'charset' => DB_CHARSET,
-  'prefix' => DB_PREFIX
-));
+$capsule->addConnection($config['database']);
 $capsule->bootEloquent();
 $capsule->setAsGlobal();
 
