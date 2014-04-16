@@ -24,5 +24,5 @@ Make sure to run ```composer update``` after you create a new model.
 
 ## To do
 
-* Example
-* Migrations
+* Examples
+* Clean up
