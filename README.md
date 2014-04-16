@@ -22,6 +22,10 @@ Put your models in ```app/models```, your templates in ```app/views``` and your 
 
 Make sure to run ```composer update``` after you create a new model.
 
+## Validator
+
+Use ```$validator = Validator::make($data, $rules);``` to create a new validator instance.
+
 ## To do
 
 * Examples

@@ -1,5 +1,10 @@
 <?php
-// Store the factory instance somewhere, Maybe like:
+/**
+ * @see     https://github.com/laravel/framework/issues/854#issuecomment-17866944
+ * @example $validator = Validator::make($data, $rules);
+ */
+namespace Application;
+
 use Symfony\Component\Translation\Translator;
 use Illuminate\Validation\Factory;
 
