@@ -10,7 +10,7 @@ This is a very bare bones template for using the following:
 
 ## Installation
 
-Run ```git clone https://github.com/acoustep/slim-twig-eloquent.git``` then in terminal run ```composer install```
+Run ```git clone https://github.com/dkesberg/slim-twig-eloquent.git``` then in terminal run ```composer install```
 
 Set up your database connection in ```app/config/database.php```.
 
