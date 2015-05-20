@@ -1,12 +1,13 @@
 <?php
-session_cache_limiter(false);
-session_start();
-
 /* define environment */
 $_ENV['SLIM_MODE'] = 'development';
 
 /* Get PHP Dependancies */
 require_once __DIR__.'/vendor/autoload.php';
+
+/* Start session */
+session_cache_limiter(false);
+session_start();
  
 /* Get Configuration */
 $config = array();
